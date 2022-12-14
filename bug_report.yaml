@@ -10,7 +10,6 @@ body:
       description: "Search in the issues sections by clicking [HERE](https://github.com/louislam/uptime-kuma/issues?q=)"
       options:
         - label: "I checked and didn't find similar issue"
-          required: true
   - type: checkboxes
     attributes:
       label: "🛡️ Security Policy"
@@ -21,7 +20,6 @@ body:
   - type: textarea
     id: description
     validations:
-      required: false
     attributes:
       label: "Description"
       description: "You could also upload screenshots"
@@ -48,7 +46,6 @@ body:
     attributes:
       label: "😓 Actual Behavior"
       description: "What actually happen?"
-      placeholder: "..."
   - type: input
     id: uptime-kuma-version
     attributes:
